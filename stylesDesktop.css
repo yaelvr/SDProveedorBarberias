@@ -233,10 +233,12 @@ body{
 .Producto-title{
     color: rgb(211, 18, 18);
     margin-left: .5rem;
+    margin-right: .5rem;
 }
 .Producto-precio{
     margin-bottom: 1rem;
     margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 /*...............Media Querys.................*/
