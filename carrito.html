@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" Contenido-Productos="IE=edge">
-    <meta name="viewport" Contenido-Productos="width=device-width, initial-scale=1.0">
-    <!--Estilos-->
-    <link rel="stylesheet" type="text/css" href="stylesDesktop.css">
-    <link rel="stylesheet" type="text/css" href="Producto-Detail.css">
-    <!--ICONOS-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,-25" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>Sd Proveedor de Barberias</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Estilos-->
+     <link rel="stylesheet" type="text/css" href="carrito.css">
+     <link rel="stylesheet" type="text/css" href="stylesDesktop.css">
+     <link rel="stylesheet" type="text/css" href="Producto-Detail.css">
+     <!--ICONOS-->
+     <link rel="">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,-25" />
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Carrito</title>
 </head>
-
 <body>
     <div class="Mobile-Menu-Slide" id="Mobile-Menu-Slide">
         <button class="Productos-Menu BTN-Cerrar" id="BTN-Cerrar">Cerrar</button>
@@ -98,39 +98,24 @@
             </div>
 
     </nav>
-    
-    <section class="Producto-Detail-content">
-        <div class="Display-Details">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_752567-MLV46793543522_072021-F.jpg" class="IMGDetail">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_752567-MLV46793543522_072021-F.jpg" class="IMGDetail">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_752567-MLV46793543522_072021-F.jpg" class="IMGDetail">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_752567-MLV46793543522_072021-F.jpg" class="IMGDetail">
-        </div>
-        <div class="Buy-Producto-Detail">
-            <label class="Nombre-Producto-Detail">Peine de Textura</label>
-            <p class="Price-Producto-Detail">$300</p>
-            <p class="Descipcion">
-                Lorem ipsum, dolor sit amet consectetur 
-                adipisicing elit. Numquam distinctio quia magnam doloribus odit 
-                placeat nulla deserunt debitis quisquam dolorum architecto quibusdam 
-                in illo magni laboriosam quasi, facilis minima labore?
-            </p>
-            <label class="Cantidad">Cantidad </label>
-            <input type="number" placeholder="1" class="Cantidad-Producto">
-            <button class="Detail-Agregar-Carrito" id="Detail-Agregar-Carrito">Agregar al Carrito</button>
-            <button class="Detail-Favoritos">Favoritos</button>
-            <label class="Envio">Envios</label>
-            <p class="Detalle-Envios">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ab non magnam aut, quia quis suscipit sint qui cupiditate 
-                amet modi saepe id velit ullam enim veniam, repellat obcaecati 
-                commodi molestias!</p>
-        </div>
-    </section>
-    <!--SCRIPTS-->
+    <div class="ProductosComprar">
+        <div class="Producto">
+            <img class="imagen" src="maquina.jpg">
+            <div class="especificaciones">
+                <label class="titulo">TITULO</label>
+                <label  class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nulla dignissimos enim sit, quibusdam sunt perspiciatis, voluptate vitae recusandae nostrum odio tenetur consequuntur, assumenda est amet numquam repellendus. Provident, expedita.</label>
+            </div>
+            <div class="compra">
+                <label class="precio">$2800</label>
+                <input type="number" class="cantidad" placeholder="1">
+                <button class="comprar">Comprar</button>
+            </div>
+            </div>
+
+    </div>
+    <!--Script-->
     <script src="funcionalidad.js"></script>
     <script src="Producto-Detail.js"></script>
     <script src="BuyProduct.js"></script>
 </body>
-
-</html>     
+</html>

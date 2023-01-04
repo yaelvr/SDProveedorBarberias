@@ -1,0 +1,52 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.ProductosComprar{
+    display: flex;
+    margin-top: 3rem;
+    
+}
+.Producto{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+   
+
+}
+.imagen{
+    height: 26rem;
+}
+.cantidad{
+    padding-left: 1rem;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 1.3rem;
+    overflow: none;
+}
+.precio{
+    font-size: 2.3rem;
+}
+.compra{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.comprar{
+    color: white;
+    height: 3rem;
+    border-radius: 1.3rem; 
+    background-color: #121212;
+    
+}
+
+.comprar:hover{
+    background-color: #f2f2f2;
+    color:#121212;
+}

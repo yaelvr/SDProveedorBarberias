@@ -75,6 +75,9 @@ fetch('https://dummyjson.com/products?limit=10&skip=10&select=title,price')
    original_data = JSON.parse(JSON.stringify(data.products));
    console.log(original_data)
    for(index of original_data){
+      let url=document.createElement("a")
+      url.href="#";
+
       let div=document.createElement("div");
       div.className="Pdisplay";
 
@@ -93,7 +96,8 @@ fetch('https://dummyjson.com/products?limit=10&skip=10&select=title,price')
       div.append(img);
       div.append(label);
       div.append(label2);
-      document.getElementById("Lay-out-Productos").appendChild(div);
+      url.append(div);
+      document.getElementById("Lay-out-Productos").appendChild(url);
       console.log(index.title)
    }
 });
